@@ -40,16 +40,20 @@ const MoreDetails = ({ currentJob }) => {
 export default MoreDetails;
 
 const Container = styled.div`
-  height: 100vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
+
+  height: 100%;
+  align-items: center;
+  justify-content: center;
   padding: 40px;
+  margin: auto;
 `;
 
 const Wrapper = styled.div`
-  width: 100%;
-
+  width: 60%;
+  align-items: center;
+  justify-content: center;
   background-color: #3a4b59;
   padding: 10px;
   border-radius: 20px;
